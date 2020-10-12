@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ECEDF1;
+}
+
+.form {
+  background-color: #ECEDF1;
+  width: 250px;
+  height: 350px;
+  padding: 10px ;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #C8C9CD, -5px -5px 5px #F5F7F6;
+}
+
+.form h2 {
+  color: #666;
+  margin: 30px auto;
+}
+
+.form img {
+  width: 60px;
+  height: 60px;
+  padding: 1px;
+  margin: 20px 0 0 0;
+  background-color: #fff;
+  border: .0001px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #C8C9CD, -5px -5px 5px #F5F7F6;
+}
+
+input {
+  display: block;
+  margin: 0 auto 30px;
+  height: 40px;
+  width: 220px;
+  border-radius: 150px;
+  border: none;
+  background: none;
+  padding: 0 10px;
+  color: #666;
+  outline: none;
+  box-shadow: 5px 5px 5px #C8C9CD inset, -5px -5px 5px #F5F7F6 inset;
+}
+
+.login {
+  background: none;
+  border: 1px solid #56C9D0;
+  height: 40px;
+  width: 220px;
+  font-weight: bold;
+  color: #56C9D0;
+  transition: all .3s linear;
+  box-shadow: 5px 5px 5px #C8C9CD, -5px -5px 5px #F5F7F6;
+}
+
+.login:hover {
+  background-color: #56C9D0;
+  color: #fff;
+  
+}
+/*
+background-color {#ECEDF1}
+shadow {#C8C9CD}
+shadow2 {#F5F7F6}
+login {#56C9D0}
+*/
